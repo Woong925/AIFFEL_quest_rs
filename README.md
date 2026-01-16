@@ -1,4 +1,3 @@
-## 디렉토리 구조
 
 AIFFEL_quest_rs
 ├── MainQuest
