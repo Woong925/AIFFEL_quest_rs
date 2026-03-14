@@ -1,0 +1,30 @@
+{
+  "corpus_source_txt": "/content/mini_bert_project/extracted_kowiki/kowiki.txt",
+  "corpus_source_zip": "/content/kowiki.txt.zip",
+  "corpus_source_kind": "zip",
+  "num_docs_used": 12000,
+  "num_examples": 25000,
+  "max_seq_len": 128,
+  "vocab_size": 8000,
+  "special_tokens": {
+    "pad_id": 0,
+    "unk_id": 1,
+    "cls_id": 2,
+    "sep_id": 3,
+    "mask_id": 4
+  },
+  "files": {
+    "input_ids": "/content/mini_bert_project/pretrain_memmap/input_ids.memmap",
+    "token_type_ids": "/content/mini_bert_project/pretrain_memmap/token_type_ids.memmap",
+    "attention_mask": "/content/mini_bert_project/pretrain_memmap/attention_mask.memmap",
+    "mlm_labels": "/content/mini_bert_project/pretrain_memmap/mlm_labels.memmap",
+    "nsp_labels": "/content/mini_bert_project/pretrain_memmap/nsp_labels.memmap"
+  },
+  "dtypes": {
+    "input_ids": "int32",
+    "token_type_ids": "int16",
+    "attention_mask": "int8",
+    "mlm_labels": "int32",
+    "nsp_labels": "int8"
+  }
+}
